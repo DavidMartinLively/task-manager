@@ -1,0 +1,94 @@
+
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+
+}
+
+
+
+h1{
+
+    background-color: #212121;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    margin: 0;
+}
+h3{
+    color: yellowgreen;
+}
+
+.parent {
+    display: flex;
+    height: 94%;
+    background : url("https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list {
+    flex: 3;
+    
+}
+
+.form {
+    flex: 1;
+    background:rgba(128, 128, 128, 0.693);
+    
+}
+
+.my-control  {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: beige;
+}
+
+.my-control label{
+
+    
+    width: 110px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.my-control input, 
+.my-control select,
+.my-control textarea{
+    flex-grow: 1;
+
+
+}
+
+.centered { 
+    text-align: center;
+}
+
+.icon{
+    font-size: 35px;
+    color: #6a6a6a;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.important
+{
+    color:red;
+}
+
+
+
+.notImportant{
+    color:rgb(47, 0, 255)
+}
